@@ -1,2 +1,6 @@
 # hello-world
-My first online repo
+
+Hi humanoids.
+This is one of the first steps into conquering the digital world.
+
+See you there.
