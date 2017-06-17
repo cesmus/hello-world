@@ -1,85 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hello World Repo, ">
+        <meta charset="utf-8" />
+        <title>Hello World Repo - cesmus</title>
+        <link rel="stylesheet" href="https://cesmus.github.io/hello-world/theme/css/main.css" />
 
-
-        <title>cesmus author // Hello World Repo // </title>
-
-
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cesmus.github.io/hello-world/theme/css/pure.css">
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 </head>
 
-<body>
-<div class="pure-g-r" id="layout">
-<div class="sidebar pure-u">
-    <div class="cover-img" style="background-image: url('')">
-        <div class="cover-body">
-            <header class="header">
-                <hgroup>
-                    <h1 class="brand-main"><a href="/">Hello World Repo</a></h1>
-                    <p class="tagline"></p>
-                    <p class="social">
-                    <p>
-                </hgroup>
-            </header>
-        </div>
-    </div>
-</div>    <div class="pure-u-1">
-        <div class="content">
-            <!-- A wrapper for all the blog posts -->
-            <div class="posts">
-                <h1 class="content-subhead">
-Posts by 'cesmus'                </h1>
-<section class="post">
-    <header class="post-header">
-        <a href="https://cesmus.github.io/hello-world/author/cesmus.html" title="See posts by cesmus">
-        </a>
-        <h3><a class="post-title" href="https://cesmus.github.io/hello-world/hello.html">Hello</a></h3>
-            <p class="post-meta"><p>GitHub Pages: Project Page -&gt; hello world</p></p>
-            <p class="post-meta">
-                in <a href="https://cesmus.github.io/hello-world/category/github.html">github</a> &middot; Fri 09 June 2017
-            </p>
-    </header>
-</section><div class="pagination-wrapper content-subhead">
-</div><footer class="footer">
-    <p>&copy; Hello World Repo &ndash;
-        Built with <a href="https://github.com/PurePelicanTheme/pure">Pure Theme</a>
-        for <a href="http://blog.getpelican.com/">Pelican</a>
-    </p>
-</footer>            </div>
-        </div>
-    </div>
-</div>
-    <script>
-        var $top = $('.go-top');
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://cesmus.github.io/hello-world/">Hello World Repo </a></h1>
+                <nav><ul>
+                    <li><a href="https://cesmus.github.io/hello-world/category/github.html">github</a></li>
+                </ul>
+                </nav>
+        </header><!-- /#banner -->
 
-        // Show or hide the sticky footer button
-        $(window).scroll(function() {
-            if ($(this).scrollTop() > 200) {
-                $top.fadeIn(200);
-            } else {
-                $top.fadeOut(200);
-            }
-        });
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="https://cesmus.github.io/hello-world/hello.html">Hello</a></h1>
+<footer class="post-info">
+        <span>Fri 09 June 2017</span>
 
-        // Animate the scroll to top
-        $top.click(function(event) {
-            event.preventDefault();
-            $('html, body').animate({scrollTop: 0}, 300);
-        })
+</footer><!-- /.post-info --><p>GitHub Pages: Project Page -&gt; hello world</p>                </article>
+            </aside><!-- /#featured -->
+            </ol><!-- /#posts-list -->
+            </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="https://github.com/cesmus">GitHub</a></li>
+                            <li><a href="https://cesmus.github.io/">GitHub Page</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+        </section><!-- /#extras -->
 
-        // Makes sure that the href="#" attached to the <a> elements
-        // don't scroll you back up the page.
-        $('body').on('click', 'a[href="#"]', function(event) {
-            event.preventDefault();
-        });
-    </script>
+        <footer id="contentinfo" class="body">
+                <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme <a href="https://github.com/blueicefield/pelican-blueidea/">blueidea</a>, inspired by the default theme.</p>
+        </footer><!-- /#contentinfo -->
+
 </body>
 </html>
