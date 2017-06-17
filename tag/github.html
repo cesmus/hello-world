@@ -4,10 +4,9 @@
         <meta charset="utf-8" />
         <title>Hello World Repo - github</title>
         <link rel="stylesheet" href="https://cesmus.github.io/hello-world/theme/css/main.css" />
-        <link href="https://cesmus.github.io/hello-world/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hello World Repo Atom Feed" />
 
         <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 </head>
 
@@ -16,55 +15,90 @@
                 <h1><a href="https://cesmus.github.io/hello-world/">Hello World Repo </a></h1>
                 <nav><ul>
                     <li><a href="https://cesmus.github.io/hello-world/category/github.html">github</a></li>
-                </ul></nav>
+                </ul>
+                </nav>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
                     <h1 class="entry-title"><a href="https://cesmus.github.io/hello-world/howto.html">howto</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2017-06-10T23:47:00-05:00">
-                Published: Sat 10 June 2017
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://cesmus.github.io/hello-world/author/cesmus.html">cesmus</a>
-        </address>
-<p>In <a href="https://cesmus.github.io/hello-world/category/github.html">github</a>.</p>
-<p>tags: <a href="https://cesmus.github.io/hello-world/tag/hello-world.html">hello-world</a> <a href="https://cesmus.github.io/hello-world/tag/github.html">github</a> </p>
+        <span>Sat 10 June 2017</span>
+<span>| tags: <a href="https://cesmus.github.io/hello-world/tag/hello-world.html">hello-world</a><a href="https://cesmus.github.io/hello-world/tag/github.html">github</a></span>
 </footer><!-- /.post-info --><h3>howto: GitHub hello-world repository from the command line</h3>
+<ol>
+<li>To begin, create a new directory:</li>
+</ol>
+<div class="highlight"><pre><span></span>mkdir hello-world
+<span class="nb">cd</span> hello-world
+</pre></div>
+
+
+<ol>
+<li>Create a new repository:</li>
+</ol>
+<div class="highlight"><pre><span></span>git init
+</pre></div>
+
+
+<ol>
+<li>Create a new README.md file to add project info:</li>
+</ol>
+<div class="highlight"><pre><span></span>vim README.md
+</pre></div>
+
+
 <div class="highlight"><pre><span></span># hello-world
 
 Hi humanoids.
 This is one of the first steps into conquering the digital world.
 
 See you there.
+</pre></div>
+
+
+<ol>
+<li>Add file to git</li>
+</ol>
+<div class="highlight"><pre><span></span>git add README.md
+</pre></div>
+
+
+<ol>
+<li>Commit changes to repo</li>
+</ol>
+<div class="highlight"><pre><span></span>git commit -m <span class="s2">&quot;First commit&quot;</span>
+</pre></div>
+
+
+<ol>
+<li>Add GitHub remote repo</li>
+</ol>
+<div class="highlight"><pre><span></span>git remote add origin https://github.com/cesmus/hello-world.git
+</pre></div>
+
+
+<ol>
+<li>Push changes to GitHub:</li>
+</ol>
+<div class="highlight"><pre><span></span>git push 
 </pre></div>                </article>
             </aside><!-- /#featured -->
+            </ol><!-- /#posts-list -->
+            </section><!-- /#content -->
         <section id="extras" class="body">
                 <div class="blogroll">
-                        <h2>links</h2>
+                        <h2>blogroll</h2>
                         <ul>
                             <li><a href="https://github.com/cesmus">GitHub</a></li>
                             <li><a href="https://cesmus.github.io/">GitHub Page</a></li>
                             <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
                         </ul>
                 </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="https://cesmus.github.io/hello-world/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
-
-                        </ul>
-                </div><!-- /.social -->
         </section><!-- /#extras -->
 
         <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+                <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme <a href="https://github.com/blueicefield/pelican-blueidea/">blueidea</a>, inspired by the default theme.</p>
         </footer><!-- /#contentinfo -->
 
 </body>
